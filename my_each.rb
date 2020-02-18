@@ -1,7 +1,7 @@
-def my_each(array) # put argument(s) here
+def my_each(collection) # put argument(s) here
   i = 0
   # code here
-  while i < array.length
-  puts i
+  while i < collection.length
+  yield 
   i += 1
 end
